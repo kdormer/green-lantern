@@ -1,0 +1,5 @@
+[config]
+mode = "regional"
+location = "GL52"
+carbon_intensity_limit = "350"
+poll_interval = 10
