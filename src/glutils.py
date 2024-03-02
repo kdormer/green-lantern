@@ -102,7 +102,7 @@ def get_public_ip():
 Get postcode based on public IP address using the IPInfo API.
 """
 def get_postcode(ip):
-    access_token = 'be7b47304d7cee'
+    access_token = config['access_token']
     handler = ipinfo.getHandler(access_token)
     details = handler.getDetails(ip)
     return details.postal

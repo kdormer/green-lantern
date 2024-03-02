@@ -1,5 +1,6 @@
 [config]
 mode = "regional"
-location = "GL52"
+location = ""
 carbon_intensity_limit = "350"
 poll_interval = 10
+acess_token = ""
